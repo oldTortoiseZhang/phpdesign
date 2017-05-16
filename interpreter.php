@@ -1,9 +1,12 @@
 <?php
 /**
+ * Created by PhpStorm.
+ * User: zhangmin
+ * Date: 2017/5/16
+ * Time: 11:07
  * 设计模式之解释器模式
  * 给定一个语言, 定义它的文法的一种表示，并定义一个解释器，该解释器使用该表示来解释语言中的句子。
- * 解释器模式是一个比较少用的模式
- * zhangmin
+ * 解释器模式是一个比较少用的模式*
  */
 header("Content-type: text/html; charset=utf-8");
 
@@ -161,3 +164,6 @@ try{
 } catch(Exception $e) {
     echo $e->getMessage();
 }
+
+
+
